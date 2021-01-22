@@ -6,6 +6,7 @@
         {{ __("My") . " " . __("Profile") }}
         @include("components.breadcrumb")
     </h4>
+    @include("components.message")
 @stop
 @section("content")
     <div class="row">

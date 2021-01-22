@@ -20,7 +20,7 @@
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body table-responsive no-padding">
-                    <table class="table table-hover table-bordered">
+                    <table class="table table-hover table-striped table-bordered">
                         <tr>
                             <th>{{ __("Id") }}</th>
                             <th>{{ __("Title") }}</th>

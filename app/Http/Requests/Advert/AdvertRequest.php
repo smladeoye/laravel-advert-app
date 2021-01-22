@@ -1,8 +1,5 @@
 <?php
-
-
 namespace App\Http\Requests\Advert;
-
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -27,9 +24,9 @@ class AdvertRequest extends FormRequest
      */
     public function rules()
     {
-        //dd($this->post());
         return [
             'title'=> ['required',Rule::unique('adverts')->ignore($this->id)],
+            'description'=>'nullable',
             'status'=>'boolean'
         ];
     }

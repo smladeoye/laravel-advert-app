@@ -188,12 +188,12 @@ return [
 
     'use_route_url' => false,
     'dashboard_url' => 'dashboard',
-    'logout_url' => '/accounts/logout',
+    'logout_url' => '/admin/accounts/logout',
     'login_url' => '/accounts/login',
     'register_url' => null,
-    'password_reset_url' => 'password/reset',
+    'password_reset_url' => null,
     'password_email_url' => 'password/email',
-    'profile_url' => false,
+    'profile_url' => "admin/accounts/profile",
 
     /*
     |--------------------------------------------------------------------------
